@@ -1,0 +1,122 @@
+# General OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.history
+
+# Cache and temp
+.cache/
+.tmp/
+.temp/
+
+# Node / JavaScript / TypeScript
+node_modules/
+.pnpm-store/
+dist/
+build/
+lib/
+coverage/
+.nyc_output/
+.turbo/
+.next/
+.nuxt/
+.vercel/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.babel.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+.wheels/
+share/python-wheels/
+.mypy_cache/
+.pyright/
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Ruby
+.bundle/
+vendor/bundle/
+log/
+tmp/
+coverage/
+
+# Go
+bin/
+coverage.out
+
+# Rust
+target/
+
+# Java / Kotlin / Gradle
+*.class
+.gradle/
+build/
+.out/
+.target/
+
+# PHP / Composer
+vendor/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Docker
+.docker/
+docker-data/
+
+# Misc archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
